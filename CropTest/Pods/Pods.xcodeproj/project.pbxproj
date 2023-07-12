@@ -1,0 +1,1467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F40BFA8398D09DFD0D9D48A356E188 /* CropPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18776B253C8E2A302991086ECB8F5ECF /* CropPickerView.swift */; };
+		0125D49E08B6D425F72375EEED3648B7 /* TOCropToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 1069E9E2FCFB2FC4D5D3762864483C86 /* TOCropToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05D488E4491A772D52C0C5EFFE76D6D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		0622FE500447E0E62B993DE74B69C413 /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B1231500F3D4A759B43BF326CB7676 /* UIImage+CropRotate.m */; };
+		074303494D7B84C8850D741B8F3B1D4B /* ca.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1ECBAF7EEF66DC00C60005BFAD42B /* ca.lproj */; };
+		0AB111B20E9194EC54305D18389FEEB5 /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = ED7AFB9C0A4B272C1CF0BEF2F2534FC9 /* nl.lproj */; };
+		0B7E119F5431E18D8E343534764563B2 /* TOCropViewControllerTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C32F21B640E41BC91DCC22BBC686A9 /* TOCropViewControllerTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		148D635237282F75A764D979B0C9799A /* CropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120B8D895870ECF935B9DAB41B2CD215 /* CropView.swift */; };
+		157435C910963F10BD9FEB6244FCF6AC /* CropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 555164ADF98AC0306B67172F370C33D7 /* CropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17F61406A52F55F10B36FAAC1007C8E8 /* CropViewController-TOCropViewControllerBundle in Resources */ = {isa = PBXBuildFile; fileRef = 97A93DCEF2B1499B1F84D43333829DC7 /* CropViewController-TOCropViewControllerBundle */; };
+		1ACAAB74335448B39D49F87B1991DBB3 /* UIImage+CropRotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B46620206C82296BA1A029EE4A8AE02 /* UIImage+CropRotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C6A3920C4BCCD1C6587B77B903A94B1 /* TOCropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 078ED96DA5B08F09F31CE10A4F12E643 /* TOCropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B85B301F554163A55ED58B32132291 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 05B33F03713E1D05B8E0C2FE92C662CC /* de.lproj */; };
+		267B90CC915D2ED1E57023664222357F /* ar.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DEFFF6986FAC5EC53C4BF89B750C3357 /* ar.lproj */; };
+		2D20AAE0FE9CB475B20549189174ED06 /* tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A8B7EEF3D0633DAAA673213E71939754 /* tr.lproj */; };
+		2FBF71950FEBE004A0468C9DD46D23DE /* fi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F6267B995036A7A6CD826115042E862E /* fi.lproj */; };
+		30899EE8A8D85F23A49F86532927E4E4 /* CroptateView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6A363C0F8441F3EE6AA0342F14A13B5 /* CroptateView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		322DEBBD84FA2A111F8AB1F055B3A8BC /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB87DC52DC592F59DBFE3C5A537DC87 /* TOCropViewController.m */; };
+		325F5E0DFE35BB21EC34EEA8BD152151 /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5DA5A977689FF6AC7025BC9990A1A9 /* TOCropOverlayView.m */; };
+		349696768AF953E4030C8D6C90A30A57 /* ABGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B6C86C8597B77E09291D391625AF545 /* ABGridView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35026DDFF6780ABC4B187FCFF187FF16 /* ro.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4D16BB21AC0366F9B7719E78DC86FD86 /* ro.lproj */; };
+		3C1033326696275C856EC47132BDA167 /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DED1BCD5C24CB5573B78AC8F362F71F /* TOActivityCroppedImageProvider.m */; };
+		440105E872985AF3092632D459384C6F /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C24FCC01C45D7F0B6E81CECD5C14FCC0 /* Base.lproj */; };
+		47625AAD465CED219EA3894C059B9927 /* fa.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3D001B5E94CC65CEC9F0FB4F4D330CDC /* fa.lproj */; };
+		48889F8BFECE411608DC2C6E681EB9BF /* CropDimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5097433F8F886A96622E8B85F3D0F204 /* CropDimView.swift */; };
+		4C68E4C97B694CCE346758930ED45398 /* ABMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 341728FE76379571F5A080AED7871869 /* ABMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		529B0F8E7F763B449CE65D7F26A03D72 /* CroptateView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB0DBB9D6D2FF4B0E20886780F95F1B /* CroptateView-dummy.m */; };
+		52A03A0864FF789D087F604ECA3EDA1C /* LineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2528F240B8F5E768EA5AF0A73BA741A /* LineButton.swift */; };
+		56B282231271CE1E310577075D304466 /* NSLayoutConstraint+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5569FD75DE0668F985A9E4768BB2258 /* NSLayoutConstraint+.swift */; };
+		5CFDA8C832F794F2C029A433BB3996A4 /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4575AE5A729434F7F89B3DEB6F311A /* CropViewController.swift */; };
+		5D1A8B1FF3A4F57BE20C9B2CB946D0D9 /* CroptateView-ABCropRotateView in Resources */ = {isa = PBXBuildFile; fileRef = 0CFC845BD4FD87C459AAA2E3D7CB4367 /* CroptateView-ABCropRotateView */; };
+		5E407A6826BD37FE10650A7BE46337A3 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = ADD6BB38F58CFA28E51F258A50B6E16F /* ja.lproj */; };
+		6032EF8BEF6DE02B5E1360616EECCEC2 /* CropViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E84613572BDA28FFA3C383FDCB83D0CA /* CropViewController-dummy.m */; };
+		60A2CF183D675A74ED4648120144C0B3 /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEF295C2EDB48C020B51B126314DE4F /* TOCropView.m */; };
+		666EE0FB4CF6FC0CA7F6A31DD690E1B5 /* CropPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6000B76BE815CC8DB9C20BC3B6DF2C25 /* CropPickerView-dummy.m */; };
+		66FC539131DB06F764BD4741A23878E7 /* Pods-CropTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2A957BA6ECE38DD454F78F303A83B7 /* Pods-CropTest-dummy.m */; };
+		68ED26FB3F02396DC28E6684BDB44F1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		6A4054B8EA8B01FD95C39230AC76E6E0 /* fa-IR.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E71DC378548080C777EFF2D4F74F69EF /* fa-IR.lproj */; };
+		6B7E37AC37E5C568CF7C49D1481DE5A8 /* vi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2EA8DC6737E0546DB80841CC9D9857BC /* vi.lproj */; };
+		708515D6834361D40017CAAF4F2CC0B3 /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F46368EAAC60A8AEF9DF02C679A5B33 /* TOCropToolbar.m */; };
+		7329860C619F4B842A2B39471F81606E /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0DF445B9ADD311591EB576698EED9165 /* fr.lproj */; };
+		749E88938C1417092BF7B7B1893B5D62 /* hu.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 774956686F2067B71ABC0B178AB14DFF /* hu.lproj */; };
+		75E65B2CADA0674421CAE26414482352 /* Pods-CropTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E91BB3D16F077C5D441391D09254817 /* Pods-CropTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D9561C9ED43EB9AFE23D0D79441762E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		8240F04CF9D89087BF20F0985477F93C /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0F149BC0730E712A4EF18277C3BB5518 /* ru.lproj */; };
+		8609D6867D6199EA5D4F0D8E8FAEB64A /* BezierPath+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123CC897C5BE630B017C0AC9D6E56EC3 /* BezierPath+.swift */; };
+		91092EFA6933F89639A3570051710D77 /* da-DK.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A61267F60B482D5D50EC1F9B57560305 /* da-DK.lproj */; };
+		91ABE29FE5EBE0105C1ED64A2BA84C96 /* CropViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41DCF4D13D31F1CE9314E165B1B65396 /* CropViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		927E560379E18569851E313FC337DBA7 /* id.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F0019FC19CFE8C86E4CC5DA6255421DD /* id.lproj */; };
+		9386E30B72CB709E24D76D0A5CEAB64E /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0191C57C95E225D09174EC8C7C85025F /* es.lproj */; };
+		9699AFE6C26869568A3009EEEAEC2B31 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B47BB05814CFC5FE65FFF1AE2B56B6 /* UIImage+.swift */; };
+		98A612A6CFD2CB9B46230613C97B44D0 /* TOCropViewConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = ADE6DCF49CA576AFE1A1983B4F9D0A9F /* TOCropViewConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FD58B37E5DD8E08AB41E2E2209666EC /* TOCropOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = A02F1F0C40ED3E9FF2E887D953F0F4D2 /* TOCropOverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A87E18EEFD2EF35B9272A875E92C11C2 /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CA50534373CCB49B4078931F57015880 /* zh-Hant.lproj */; };
+		AB16FBCA530203BF004DD38B3B1B82AF /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7D7A1C4CEAA8B81529B6DDFAC4F0C /* zh-Hans.lproj */; };
+		AE4462034FCC4B26BB5538A2698EAED4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		B0AD48795AFF23B9153F34BB96F3CD4A /* pt-BR.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A7820AC2F13A27E77DFB81FF04DA2A0B /* pt-BR.lproj */; };
+		B5476A5DA3BC0BA585569E26F73B0D6B /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D1166151A0ED8239B4E4BD88683FAC /* UIView+.swift */; };
+		B56F5B91020C46BC39AC6C2FEA387D70 /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F098555252F3CC16D75982F3AA22B0 /* TOCropViewControllerTransitioning.m */; };
+		B59874C1297DD488276836BE73AB346B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		B5B41651CAAE7AE113031853222E4F6F /* ABGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AD5B59A029C0CA758110A22B9BE733 /* ABGridView.m */; };
+		B6ADBA6217AA1EE7CD56221D4906AA59 /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F9A332C92560F4A549A6571ACA4CF5 /* TOCroppedImageAttributes.m */; };
+		B9E7B420F91DBAE1BFA664F1A1F6C02D /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E99EA9E7FE06EA60A629664AA640B016 /* ko.lproj */; };
+		BD3C89994EB4A08AD15857C0E465CEB4 /* CropResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90488965F0E12C0ECA71B38790EE250 /* CropResult.swift */; };
+		C5D553D3A2813B1F76402726BC74C111 /* ms.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4442E0285813C46A1064066725F27EE6 /* ms.lproj */; };
+		D2596A3450D23C209A5B43995BE085E0 /* TOCroppedImageAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A72B15D2AB6E091848B87DD50B81395 /* TOCroppedImageAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D41A5D8D7DA9FFC4E51C08615C365F99 /* ABMath.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2B00847F1166820931CA989A87823A /* ABMath.m */; };
+		D7223CC8B377F77B2CCCE90F8A83D7FD /* sk.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 341FE38288CED240DA6220CB33246017 /* sk.lproj */; };
+		D948A9D610799A058448C639F4391B6E /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 5149592C4A8D31863E07A2674ACD3E6D /* en.lproj */; };
+		D9A44C51686B113479A674A5F4B97194 /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1FB79B4602F203D05A6BAAFA4D173D27 /* pt.lproj */; };
+		DCAD9827EEA5BB6C05557DEB2C2BCCB4 /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1982ED33AEBA8AA1B572F8AC607C771B /* TOCropScrollView.m */; };
+		DDC485BF0BEA31523C9DFF2E189CF8A9 /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF157C89D17749CE3295CDC8DE6F486E /* UIImageView+.swift */; };
+		DF4EA8E38BD707882879152304A765B7 /* CropPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EF3CCFA05C98705B6F56546870B5A8 /* CropPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E027818561357A9CA10AA75E6C0AB36F /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 90768ADF347BA522DD1710BD300F27C1 /* it.lproj */; };
+		E91BDD4D7E2473F9F4CC70B9D2AFAC40 /* ABCroptateView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A2E1659CF787AF95ED7C1BF2FF0C4D /* ABCroptateView.m */; };
+		F09E551DE4C95F8CB02194C3EC1546E6 /* TOCropScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = C3C23CA6D23ABFBE1946CF5D14AE300C /* TOCropScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F13525BA74378D059FA8DD89EAB94318 /* ABCroptateView.h in Headers */ = {isa = PBXBuildFile; fileRef = A008E7C78FDCC0F587BB9DB55CA427EC /* ABCroptateView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2A5C0F830A3CCC2195EC38867F633D1 /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE66D12262DF3270A3DF9D9B0EEF5D /* pl.lproj */; };
+		FB62DBBFC44F0F66857FEA75CA61A34B /* TOActivityCroppedImageProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = DDFD69090D46873362B5EA3C30EE6528 /* TOActivityCroppedImageProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC1602B479EE7CB08958F5CB59F1ABAD /* cs.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 5B2ACB2EBEEB48B3F3B6889A92486CA9 /* cs.lproj */; };
+		FDBD2B40802DF884C7218A83A7B78FEB /* TOCropView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A23D4276AB2AB5AB29B2D7DBD3F88DD /* TOCropView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14F0D3574AA60DE6EF21780635DFE19E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2E82C663A10701CE6B794CFF6CCFA17;
+			remoteInfo = CropPickerView;
+		};
+		38B772A6584C9FDF3C33CF44E4F10355 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C83B69B91379EDCB7316C2DB7AC211AD;
+			remoteInfo = "CroptateView-ABCropRotateView";
+		};
+		48195C59EC771EF462301EDE11240165 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC81A5995F9CEB2971CBA61ACA13FCA3;
+			remoteInfo = CropViewController;
+		};
+		805220E4493BBD112FF63F289673FFA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA819CDBE8C2945A1DE96548875BBE72;
+			remoteInfo = CroptateView;
+		};
+		B207747B6CDF487C19A83E30D620BEBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB4EEF23ECB2BAF774CE8EFA5AF90C40;
+			remoteInfo = "CropViewController-TOCropViewControllerBundle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0191C57C95E225D09174EC8C7C85025F /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = es.lproj; path = "Objective-C/TOCropViewController/Resources/es.lproj"; sourceTree = "<group>"; };
+		04F098555252F3CC16D75982F3AA22B0 /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewControllerTransitioning.m; path = "Objective-C/TOCropViewController/Models/TOCropViewControllerTransitioning.m"; sourceTree = "<group>"; };
+		05B33F03713E1D05B8E0C2FE92C662CC /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = "Objective-C/TOCropViewController/Resources/de.lproj"; sourceTree = "<group>"; };
+		078ED96DA5B08F09F31CE10A4F12E643 /* TOCropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewController.h; path = "Objective-C/TOCropViewController/TOCropViewController.h"; sourceTree = "<group>"; };
+		07AD5B59A029C0CA758110A22B9BE733 /* ABGridView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABGridView.m; path = Pod/Classes/ABGridView.m; sourceTree = "<group>"; };
+		085E3E963E7B64DE559EC67057149F11 /* CropPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CropPickerView-Info.plist"; sourceTree = "<group>"; };
+		0AA7D7A1C4CEAA8B81529B6DDFAC4F0C /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "Objective-C/TOCropViewController/Resources/zh-Hans.lproj"; sourceTree = "<group>"; };
+		0B46620206C82296BA1A029EE4A8AE02 /* UIImage+CropRotate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+CropRotate.h"; path = "Objective-C/TOCropViewController/Categories/UIImage+CropRotate.h"; sourceTree = "<group>"; };
+		0CDE66D12262DF3270A3DF9D9B0EEF5D /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pl.lproj; path = "Objective-C/TOCropViewController/Resources/pl.lproj"; sourceTree = "<group>"; };
+		0CFC845BD4FD87C459AAA2E3D7CB4367 /* CroptateView-ABCropRotateView */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "CroptateView-ABCropRotateView"; path = ABCropRotateView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DF445B9ADD311591EB576698EED9165 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fr.lproj; path = "Objective-C/TOCropViewController/Resources/fr.lproj"; sourceTree = "<group>"; };
+		0F149BC0730E712A4EF18277C3BB5518 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ru.lproj; path = "Objective-C/TOCropViewController/Resources/ru.lproj"; sourceTree = "<group>"; };
+		1069E9E2FCFB2FC4D5D3762864483C86 /* TOCropToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropToolbar.h; path = "Objective-C/TOCropViewController/Views/TOCropToolbar.h"; sourceTree = "<group>"; };
+		120B8D895870ECF935B9DAB41B2CD215 /* CropView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropView.swift; path = CropPickerView/Classes/CropView.swift; sourceTree = "<group>"; };
+		123CC897C5BE630B017C0AC9D6E56EC3 /* BezierPath+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BezierPath+.swift"; path = "CropPickerView/Classes/BezierPath+.swift"; sourceTree = "<group>"; };
+		18776B253C8E2A302991086ECB8F5ECF /* CropPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropPickerView.swift; path = CropPickerView/Classes/CropPickerView.swift; sourceTree = "<group>"; };
+		19672639458D5EF5EC76A48F6BF5A2B3 /* CropViewController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CropViewController; path = CropViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1982ED33AEBA8AA1B572F8AC607C771B /* TOCropScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropScrollView.m; path = "Objective-C/TOCropViewController/Views/TOCropScrollView.m"; sourceTree = "<group>"; };
+		1E98C4D5022A10699390102F2C1C581A /* Pods-CropTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CropTest.modulemap"; sourceTree = "<group>"; };
+		1FB79B4602F203D05A6BAAFA4D173D27 /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pt.lproj; path = "Objective-C/TOCropViewController/Resources/pt.lproj"; sourceTree = "<group>"; };
+		23BF8E8A0658BEF4C080B8B63C85CACD /* CroptateView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CroptateView-prefix.pch"; sourceTree = "<group>"; };
+		268ED3DB35C616307C2EC61E28B995BB /* Pods-CropTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CropTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2DED1BCD5C24CB5573B78AC8F362F71F /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOActivityCroppedImageProvider.m; path = "Objective-C/TOCropViewController/Models/TOActivityCroppedImageProvider.m"; sourceTree = "<group>"; };
+		2EA8DC6737E0546DB80841CC9D9857BC /* vi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = vi.lproj; path = "Objective-C/TOCropViewController/Resources/vi.lproj"; sourceTree = "<group>"; };
+		341728FE76379571F5A080AED7871869 /* ABMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABMath.h; path = Pod/Classes/ABMath.h; sourceTree = "<group>"; };
+		341FE38288CED240DA6220CB33246017 /* sk.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = sk.lproj; path = "Objective-C/TOCropViewController/Resources/sk.lproj"; sourceTree = "<group>"; };
+		36499364F3EF9BCCF0B6F475576F8ECB /* Pods-CropTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CropTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		36B1231500F3D4A759B43BF326CB7676 /* UIImage+CropRotate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CropRotate.m"; path = "Objective-C/TOCropViewController/Categories/UIImage+CropRotate.m"; sourceTree = "<group>"; };
+		3784D2B18056D3EF36457D9BC5650EAA /* CropViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CropViewController-prefix.pch"; sourceTree = "<group>"; };
+		38F9A332C92560F4A549A6571ACA4CF5 /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCroppedImageAttributes.m; path = "Objective-C/TOCropViewController/Models/TOCroppedImageAttributes.m"; sourceTree = "<group>"; };
+		3D001B5E94CC65CEC9F0FB4F4D330CDC /* fa.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fa.lproj; path = "Objective-C/TOCropViewController/Resources/fa.lproj"; sourceTree = "<group>"; };
+		3DCC0A0DF89A7376579995E2A710D8DB /* CropPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CropPickerView-prefix.pch"; sourceTree = "<group>"; };
+		3E91BB3D16F077C5D441391D09254817 /* Pods-CropTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CropTest-umbrella.h"; sourceTree = "<group>"; };
+		3F46368EAAC60A8AEF9DF02C679A5B33 /* TOCropToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropToolbar.m; path = "Objective-C/TOCropViewController/Views/TOCropToolbar.m"; sourceTree = "<group>"; };
+		41DCF4D13D31F1CE9314E165B1B65396 /* CropViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CropViewController-umbrella.h"; sourceTree = "<group>"; };
+		4417350222AB388D3F982A88B9472D4F /* CropViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CropViewController.release.xcconfig; sourceTree = "<group>"; };
+		4442E0285813C46A1064066725F27EE6 /* ms.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ms.lproj; path = "Objective-C/TOCropViewController/Resources/ms.lproj"; sourceTree = "<group>"; };
+		4D16BB21AC0366F9B7719E78DC86FD86 /* ro.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ro.lproj; path = "Objective-C/TOCropViewController/Resources/ro.lproj"; sourceTree = "<group>"; };
+		4FB0DBB9D6D2FF4B0E20886780F95F1B /* CroptateView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CroptateView-dummy.m"; sourceTree = "<group>"; };
+		5097433F8F886A96622E8B85F3D0F204 /* CropDimView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropDimView.swift; path = CropPickerView/Classes/CropDimView.swift; sourceTree = "<group>"; };
+		5149592C4A8D31863E07A2674ACD3E6D /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = "Objective-C/TOCropViewController/Resources/en.lproj"; sourceTree = "<group>"; };
+		51D3614CBC9D022D79AE4C89B2ED6699 /* Pods-CropTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CropTest-Info.plist"; sourceTree = "<group>"; };
+		521E3FC6E8B2B42E64F952A3319C0191 /* ResourceBundle-ABCropRotateView-CroptateView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ABCropRotateView-CroptateView-Info.plist"; sourceTree = "<group>"; };
+		555164ADF98AC0306B67172F370C33D7 /* CropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CropViewController.h; path = Swift/CropViewController/CropViewController.h; sourceTree = "<group>"; };
+		556A897AB0CC9D653DCB51083D4ABAE3 /* CropViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CropViewController.debug.xcconfig; sourceTree = "<group>"; };
+		5B2ACB2EBEEB48B3F3B6889A92486CA9 /* cs.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = cs.lproj; path = "Objective-C/TOCropViewController/Resources/cs.lproj"; sourceTree = "<group>"; };
+		5DB35410E1C28FC8AE9FB8535CE37EFA /* CropPickerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CropPickerView.debug.xcconfig; sourceTree = "<group>"; };
+		6000B76BE815CC8DB9C20BC3B6DF2C25 /* CropPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CropPickerView-dummy.m"; sourceTree = "<group>"; };
+		6A23D4276AB2AB5AB29B2D7DBD3F88DD /* TOCropView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropView.h; path = "Objective-C/TOCropViewController/Views/TOCropView.h"; sourceTree = "<group>"; };
+		6B5DA5A977689FF6AC7025BC9990A1A9 /* TOCropOverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropOverlayView.m; path = "Objective-C/TOCropViewController/Views/TOCropOverlayView.m"; sourceTree = "<group>"; };
+		6C4575AE5A729434F7F89B3DEB6F311A /* CropViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropViewController.swift; path = Swift/CropViewController/CropViewController.swift; sourceTree = "<group>"; };
+		6FB87DC52DC592F59DBFE3C5A537DC87 /* TOCropViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewController.m; path = "Objective-C/TOCropViewController/TOCropViewController.m"; sourceTree = "<group>"; };
+		7273C1B5CBD402B01C0E4813E349F6ED /* ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist"; sourceTree = "<group>"; };
+		72EF3CCFA05C98705B6F56546870B5A8 /* CropPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CropPickerView-umbrella.h"; sourceTree = "<group>"; };
+		774956686F2067B71ABC0B178AB14DFF /* hu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = hu.lproj; path = "Objective-C/TOCropViewController/Resources/hu.lproj"; sourceTree = "<group>"; };
+		7C2A957BA6ECE38DD454F78F303A83B7 /* Pods-CropTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CropTest-dummy.m"; sourceTree = "<group>"; };
+		8044D19A268A75791C6846ADAC4587FB /* Pods-CropTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CropTest-frameworks.sh"; sourceTree = "<group>"; };
+		820F8715DF19437F9F49D0F577A5FC43 /* CropViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CropViewController.modulemap; sourceTree = "<group>"; };
+		824670F20FAB30B30A974ED8D99441CE /* CroptateView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CroptateView-Info.plist"; sourceTree = "<group>"; };
+		8659CD1458FEF3D7EDF60A590431ABA2 /* CroptateView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CroptateView.release.xcconfig; sourceTree = "<group>"; };
+		8B6C86C8597B77E09291D391625AF545 /* ABGridView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABGridView.h; path = Pod/Classes/ABGridView.h; sourceTree = "<group>"; };
+		8DF1ECBAF7EEF66DC00C60005BFAD42B /* ca.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ca.lproj; path = "Objective-C/TOCropViewController/Resources/ca.lproj"; sourceTree = "<group>"; };
+		90768ADF347BA522DD1710BD300F27C1 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = it.lproj; path = "Objective-C/TOCropViewController/Resources/it.lproj"; sourceTree = "<group>"; };
+		911A19044AAB0C35BAF312483153BBFB /* CroptateView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CroptateView.modulemap; sourceTree = "<group>"; };
+		93B47BB05814CFC5FE65FFF1AE2B56B6 /* UIImage+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+.swift"; path = "CropPickerView/Classes/UIImage+.swift"; sourceTree = "<group>"; };
+		97A93DCEF2B1499B1F84D43333829DC7 /* CropViewController-TOCropViewControllerBundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "CropViewController-TOCropViewControllerBundle"; path = TOCropViewControllerBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A72B15D2AB6E091848B87DD50B81395 /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCroppedImageAttributes.h; path = "Objective-C/TOCropViewController/Models/TOCroppedImageAttributes.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A008E7C78FDCC0F587BB9DB55CA427EC /* ABCroptateView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCroptateView.h; path = Pod/Classes/ABCroptateView.h; sourceTree = "<group>"; };
+		A02F1F0C40ED3E9FF2E887D953F0F4D2 /* TOCropOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropOverlayView.h; path = "Objective-C/TOCropViewController/Views/TOCropOverlayView.h"; sourceTree = "<group>"; };
+		A0C32F21B640E41BC91DCC22BBC686A9 /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewControllerTransitioning.h; path = "Objective-C/TOCropViewController/Models/TOCropViewControllerTransitioning.h"; sourceTree = "<group>"; };
+		A2528F240B8F5E768EA5AF0A73BA741A /* LineButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineButton.swift; path = CropPickerView/Classes/LineButton.swift; sourceTree = "<group>"; };
+		A61267F60B482D5D50EC1F9B57560305 /* da-DK.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "da-DK.lproj"; path = "Objective-C/TOCropViewController/Resources/da-DK.lproj"; sourceTree = "<group>"; };
+		A7820AC2F13A27E77DFB81FF04DA2A0B /* pt-BR.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "pt-BR.lproj"; path = "Objective-C/TOCropViewController/Resources/pt-BR.lproj"; sourceTree = "<group>"; };
+		A8B7EEF3D0633DAAA673213E71939754 /* tr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = tr.lproj; path = "Objective-C/TOCropViewController/Resources/tr.lproj"; sourceTree = "<group>"; };
+		AC19CD91EE647949F0955C9D9E87EA7B /* CropPickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CropPickerView.release.xcconfig; sourceTree = "<group>"; };
+		ADD6BB38F58CFA28E51F258A50B6E16F /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ja.lproj; path = "Objective-C/TOCropViewController/Resources/ja.lproj"; sourceTree = "<group>"; };
+		ADE6DCF49CA576AFE1A1983B4F9D0A9F /* TOCropViewConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewConstants.h; path = "Objective-C/TOCropViewController/Constants/TOCropViewConstants.h"; sourceTree = "<group>"; };
+		AE2B00847F1166820931CA989A87823A /* ABMath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABMath.m; path = Pod/Classes/ABMath.m; sourceTree = "<group>"; };
+		B2D1166151A0ED8239B4E4BD88683FAC /* UIView+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+.swift"; path = "CropPickerView/Classes/UIView+.swift"; sourceTree = "<group>"; };
+		B6FD56CA7FBA1E5CE42FF89D5D1B2A4C /* Pods-CropTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CropTest.debug.xcconfig"; sourceTree = "<group>"; };
+		B90488965F0E12C0ECA71B38790EE250 /* CropResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropResult.swift; path = CropPickerView/Classes/CropResult.swift; sourceTree = "<group>"; };
+		C24FCC01C45D7F0B6E81CECD5C14FCC0 /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = Base.lproj; path = "Objective-C/TOCropViewController/Resources/Base.lproj"; sourceTree = "<group>"; };
+		C3C23CA6D23ABFBE1946CF5D14AE300C /* TOCropScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropScrollView.h; path = "Objective-C/TOCropViewController/Views/TOCropScrollView.h"; sourceTree = "<group>"; };
+		CA50534373CCB49B4078931F57015880 /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hant.lproj"; path = "Objective-C/TOCropViewController/Resources/zh-Hant.lproj"; sourceTree = "<group>"; };
+		CF157C89D17749CE3295CDC8DE6F486E /* UIImageView+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+.swift"; path = "CropPickerView/Classes/UIImageView+.swift"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D2A2E1659CF787AF95ED7C1BF2FF0C4D /* ABCroptateView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABCroptateView.m; path = Pod/Classes/ABCroptateView.m; sourceTree = "<group>"; };
+		D3B70D3C3E4C214559CC0546E537D6CE /* Pods-CropTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CropTest.release.xcconfig"; sourceTree = "<group>"; };
+		D5569FD75DE0668F985A9E4768BB2258 /* NSLayoutConstraint+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutConstraint+.swift"; path = "CropPickerView/Classes/NSLayoutConstraint+.swift"; sourceTree = "<group>"; };
+		D752C1C54F2514006D94197861343D50 /* CropPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CropPickerView.modulemap; sourceTree = "<group>"; };
+		DAFF3D27F1D87E5CEEC34A7714E0475A /* CroptateView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CroptateView.debug.xcconfig; sourceTree = "<group>"; };
+		DDFD69090D46873362B5EA3C30EE6528 /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOActivityCroppedImageProvider.h; path = "Objective-C/TOCropViewController/Models/TOActivityCroppedImageProvider.h"; sourceTree = "<group>"; };
+		DEFFF6986FAC5EC53C4BF89B750C3357 /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ar.lproj; path = "Objective-C/TOCropViewController/Resources/ar.lproj"; sourceTree = "<group>"; };
+		E31586FC280F184D535DB550C90E57A9 /* CropPickerView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CropPickerView; path = CropPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6A363C0F8441F3EE6AA0342F14A13B5 /* CroptateView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CroptateView-umbrella.h"; sourceTree = "<group>"; };
+		E71DC378548080C777EFF2D4F74F69EF /* fa-IR.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "fa-IR.lproj"; path = "Objective-C/TOCropViewController/Resources/fa-IR.lproj"; sourceTree = "<group>"; };
+		E84613572BDA28FFA3C383FDCB83D0CA /* CropViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CropViewController-dummy.m"; sourceTree = "<group>"; };
+		E99EA9E7FE06EA60A629664AA640B016 /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ko.lproj; path = "Objective-C/TOCropViewController/Resources/ko.lproj"; sourceTree = "<group>"; };
+		EA8F0364A2510403141AA9EFBDEA4091 /* Pods-CropTest */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CropTest"; path = Pods_CropTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EAEF295C2EDB48C020B51B126314DE4F /* TOCropView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropView.m; path = "Objective-C/TOCropViewController/Views/TOCropView.m"; sourceTree = "<group>"; };
+		ED7AFB9C0A4B272C1CF0BEF2F2534FC9 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = nl.lproj; path = "Objective-C/TOCropViewController/Resources/nl.lproj"; sourceTree = "<group>"; };
+		F0019FC19CFE8C86E4CC5DA6255421DD /* id.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = id.lproj; path = "Objective-C/TOCropViewController/Resources/id.lproj"; sourceTree = "<group>"; };
+		F28D18BFC2B49C00096A5D7BC81A7244 /* CroptateView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CroptateView; path = CroptateView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6267B995036A7A6CD826115042E862E /* fi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fi.lproj; path = "Objective-C/TOCropViewController/Resources/fi.lproj"; sourceTree = "<group>"; };
+		F903A5ADE37EB86AA3E9E4DA46B9334A /* CropViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CropViewController-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08DE07126E6983860F3CCF754D98E865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D488E4491A772D52C0C5EFFE76D6D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF7D7C837E671C1441B198F160E4074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D9561C9ED43EB9AFE23D0D79441762E /* Foundation.framework in Frameworks */,
+				B59874C1297DD488276836BE73AB346B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2ABFAC272EEE009B984358049F4040D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3E8CDEB5C7FC36108EE698383BF79B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4130C56102E0CE983CF6E934C80F829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ED26FB3F02396DC28E6684BDB44F1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3199EEAABCB08F88FAC832ED6178828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4462034FCC4B26BB5538A2698EAED4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		229FC3B065644329415E700AF866BDD8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				820F8715DF19437F9F49D0F577A5FC43 /* CropViewController.modulemap */,
+				E84613572BDA28FFA3C383FDCB83D0CA /* CropViewController-dummy.m */,
+				F903A5ADE37EB86AA3E9E4DA46B9334A /* CropViewController-Info.plist */,
+				3784D2B18056D3EF36457D9BC5650EAA /* CropViewController-prefix.pch */,
+				41DCF4D13D31F1CE9314E165B1B65396 /* CropViewController-umbrella.h */,
+				556A897AB0CC9D653DCB51083D4ABAE3 /* CropViewController.debug.xcconfig */,
+				4417350222AB388D3F982A88B9472D4F /* CropViewController.release.xcconfig */,
+				7273C1B5CBD402B01C0E4813E349F6ED /* ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CropViewController";
+			sourceTree = "<group>";
+		};
+		280C144A8FF0DC5733AED86653EB231F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E24D45D3A13964BB8AEC345E680D2E40 /* CropPickerView */,
+				4913F24CD0C2DAA0B4B32D89E2F4103E /* CroptateView */,
+				8AB045635EB828CD15A776E1FD7B7F00 /* CropViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		40756451C22CE51F8B55F5289308E04F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F48B8EE9FC03EAF14B4893864BDE70F1 /* Pods-CropTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4913F24CD0C2DAA0B4B32D89E2F4103E /* CroptateView */ = {
+			isa = PBXGroup;
+			children = (
+				A008E7C78FDCC0F587BB9DB55CA427EC /* ABCroptateView.h */,
+				D2A2E1659CF787AF95ED7C1BF2FF0C4D /* ABCroptateView.m */,
+				8B6C86C8597B77E09291D391625AF545 /* ABGridView.h */,
+				07AD5B59A029C0CA758110A22B9BE733 /* ABGridView.m */,
+				341728FE76379571F5A080AED7871869 /* ABMath.h */,
+				AE2B00847F1166820931CA989A87823A /* ABMath.m */,
+				72A90254F1E9F993380CE9F0D34344D3 /* Support Files */,
+			);
+			name = CroptateView;
+			path = CroptateView;
+			sourceTree = "<group>";
+		};
+		498A209050BD904A576A076C6CDBD232 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DEFFF6986FAC5EC53C4BF89B750C3357 /* ar.lproj */,
+				C24FCC01C45D7F0B6E81CECD5C14FCC0 /* Base.lproj */,
+				8DF1ECBAF7EEF66DC00C60005BFAD42B /* ca.lproj */,
+				5B2ACB2EBEEB48B3F3B6889A92486CA9 /* cs.lproj */,
+				A61267F60B482D5D50EC1F9B57560305 /* da-DK.lproj */,
+				05B33F03713E1D05B8E0C2FE92C662CC /* de.lproj */,
+				5149592C4A8D31863E07A2674ACD3E6D /* en.lproj */,
+				0191C57C95E225D09174EC8C7C85025F /* es.lproj */,
+				3D001B5E94CC65CEC9F0FB4F4D330CDC /* fa.lproj */,
+				E71DC378548080C777EFF2D4F74F69EF /* fa-IR.lproj */,
+				F6267B995036A7A6CD826115042E862E /* fi.lproj */,
+				0DF445B9ADD311591EB576698EED9165 /* fr.lproj */,
+				774956686F2067B71ABC0B178AB14DFF /* hu.lproj */,
+				F0019FC19CFE8C86E4CC5DA6255421DD /* id.lproj */,
+				90768ADF347BA522DD1710BD300F27C1 /* it.lproj */,
+				ADD6BB38F58CFA28E51F258A50B6E16F /* ja.lproj */,
+				E99EA9E7FE06EA60A629664AA640B016 /* ko.lproj */,
+				4442E0285813C46A1064066725F27EE6 /* ms.lproj */,
+				ED7AFB9C0A4B272C1CF0BEF2F2534FC9 /* nl.lproj */,
+				0CDE66D12262DF3270A3DF9D9B0EEF5D /* pl.lproj */,
+				1FB79B4602F203D05A6BAAFA4D173D27 /* pt.lproj */,
+				A7820AC2F13A27E77DFB81FF04DA2A0B /* pt-BR.lproj */,
+				4D16BB21AC0366F9B7719E78DC86FD86 /* ro.lproj */,
+				0F149BC0730E712A4EF18277C3BB5518 /* ru.lproj */,
+				341FE38288CED240DA6220CB33246017 /* sk.lproj */,
+				A8B7EEF3D0633DAAA673213E71939754 /* tr.lproj */,
+				2EA8DC6737E0546DB80841CC9D9857BC /* vi.lproj */,
+				0AA7D7A1C4CEAA8B81529B6DDFAC4F0C /* zh-Hans.lproj */,
+				CA50534373CCB49B4078931F57015880 /* zh-Hant.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		509D2E7A30B682FA7ED1BE48D83D0B78 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D752C1C54F2514006D94197861343D50 /* CropPickerView.modulemap */,
+				6000B76BE815CC8DB9C20BC3B6DF2C25 /* CropPickerView-dummy.m */,
+				085E3E963E7B64DE559EC67057149F11 /* CropPickerView-Info.plist */,
+				3DCC0A0DF89A7376579995E2A710D8DB /* CropPickerView-prefix.pch */,
+				72EF3CCFA05C98705B6F56546870B5A8 /* CropPickerView-umbrella.h */,
+				5DB35410E1C28FC8AE9FB8535CE37EFA /* CropPickerView.debug.xcconfig */,
+				AC19CD91EE647949F0955C9D9E87EA7B /* CropPickerView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CropPickerView";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		72A90254F1E9F993380CE9F0D34344D3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				911A19044AAB0C35BAF312483153BBFB /* CroptateView.modulemap */,
+				4FB0DBB9D6D2FF4B0E20886780F95F1B /* CroptateView-dummy.m */,
+				824670F20FAB30B30A974ED8D99441CE /* CroptateView-Info.plist */,
+				23BF8E8A0658BEF4C080B8B63C85CACD /* CroptateView-prefix.pch */,
+				E6A363C0F8441F3EE6AA0342F14A13B5 /* CroptateView-umbrella.h */,
+				DAFF3D27F1D87E5CEEC34A7714E0475A /* CroptateView.debug.xcconfig */,
+				8659CD1458FEF3D7EDF60A590431ABA2 /* CroptateView.release.xcconfig */,
+				521E3FC6E8B2B42E64F952A3319C0191 /* ResourceBundle-ABCropRotateView-CroptateView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CroptateView";
+			sourceTree = "<group>";
+		};
+		8AB045635EB828CD15A776E1FD7B7F00 /* CropViewController */ = {
+			isa = PBXGroup;
+			children = (
+				555164ADF98AC0306B67172F370C33D7 /* CropViewController.h */,
+				6C4575AE5A729434F7F89B3DEB6F311A /* CropViewController.swift */,
+				DDFD69090D46873362B5EA3C30EE6528 /* TOActivityCroppedImageProvider.h */,
+				2DED1BCD5C24CB5573B78AC8F362F71F /* TOActivityCroppedImageProvider.m */,
+				A02F1F0C40ED3E9FF2E887D953F0F4D2 /* TOCropOverlayView.h */,
+				6B5DA5A977689FF6AC7025BC9990A1A9 /* TOCropOverlayView.m */,
+				9A72B15D2AB6E091848B87DD50B81395 /* TOCroppedImageAttributes.h */,
+				38F9A332C92560F4A549A6571ACA4CF5 /* TOCroppedImageAttributes.m */,
+				C3C23CA6D23ABFBE1946CF5D14AE300C /* TOCropScrollView.h */,
+				1982ED33AEBA8AA1B572F8AC607C771B /* TOCropScrollView.m */,
+				1069E9E2FCFB2FC4D5D3762864483C86 /* TOCropToolbar.h */,
+				3F46368EAAC60A8AEF9DF02C679A5B33 /* TOCropToolbar.m */,
+				6A23D4276AB2AB5AB29B2D7DBD3F88DD /* TOCropView.h */,
+				EAEF295C2EDB48C020B51B126314DE4F /* TOCropView.m */,
+				ADE6DCF49CA576AFE1A1983B4F9D0A9F /* TOCropViewConstants.h */,
+				078ED96DA5B08F09F31CE10A4F12E643 /* TOCropViewController.h */,
+				6FB87DC52DC592F59DBFE3C5A537DC87 /* TOCropViewController.m */,
+				A0C32F21B640E41BC91DCC22BBC686A9 /* TOCropViewControllerTransitioning.h */,
+				04F098555252F3CC16D75982F3AA22B0 /* TOCropViewControllerTransitioning.m */,
+				0B46620206C82296BA1A029EE4A8AE02 /* UIImage+CropRotate.h */,
+				36B1231500F3D4A759B43BF326CB7676 /* UIImage+CropRotate.m */,
+				498A209050BD904A576A076C6CDBD232 /* Resources */,
+				229FC3B065644329415E700AF866BDD8 /* Support Files */,
+			);
+			name = CropViewController;
+			path = CropViewController;
+			sourceTree = "<group>";
+		};
+		B55F4DB15206B26499F0FBCBDF07BEE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E31586FC280F184D535DB550C90E57A9 /* CropPickerView */,
+				F28D18BFC2B49C00096A5D7BC81A7244 /* CroptateView */,
+				0CFC845BD4FD87C459AAA2E3D7CB4367 /* CroptateView-ABCropRotateView */,
+				19672639458D5EF5EC76A48F6BF5A2B3 /* CropViewController */,
+				97A93DCEF2B1499B1F84D43333829DC7 /* CropViewController-TOCropViewControllerBundle */,
+				EA8F0364A2510403141AA9EFBDEA4091 /* Pods-CropTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				280C144A8FF0DC5733AED86653EB231F /* Pods */,
+				B55F4DB15206B26499F0FBCBDF07BEE7 /* Products */,
+				40756451C22CE51F8B55F5289308E04F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E24D45D3A13964BB8AEC345E680D2E40 /* CropPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				123CC897C5BE630B017C0AC9D6E56EC3 /* BezierPath+.swift */,
+				5097433F8F886A96622E8B85F3D0F204 /* CropDimView.swift */,
+				18776B253C8E2A302991086ECB8F5ECF /* CropPickerView.swift */,
+				B90488965F0E12C0ECA71B38790EE250 /* CropResult.swift */,
+				120B8D895870ECF935B9DAB41B2CD215 /* CropView.swift */,
+				A2528F240B8F5E768EA5AF0A73BA741A /* LineButton.swift */,
+				D5569FD75DE0668F985A9E4768BB2258 /* NSLayoutConstraint+.swift */,
+				93B47BB05814CFC5FE65FFF1AE2B56B6 /* UIImage+.swift */,
+				CF157C89D17749CE3295CDC8DE6F486E /* UIImageView+.swift */,
+				B2D1166151A0ED8239B4E4BD88683FAC /* UIView+.swift */,
+				509D2E7A30B682FA7ED1BE48D83D0B78 /* Support Files */,
+			);
+			name = CropPickerView;
+			path = CropPickerView;
+			sourceTree = "<group>";
+		};
+		F48B8EE9FC03EAF14B4893864BDE70F1 /* Pods-CropTest */ = {
+			isa = PBXGroup;
+			children = (
+				1E98C4D5022A10699390102F2C1C581A /* Pods-CropTest.modulemap */,
+				268ED3DB35C616307C2EC61E28B995BB /* Pods-CropTest-acknowledgements.markdown */,
+				36499364F3EF9BCCF0B6F475576F8ECB /* Pods-CropTest-acknowledgements.plist */,
+				7C2A957BA6ECE38DD454F78F303A83B7 /* Pods-CropTest-dummy.m */,
+				8044D19A268A75791C6846ADAC4587FB /* Pods-CropTest-frameworks.sh */,
+				51D3614CBC9D022D79AE4C89B2ED6699 /* Pods-CropTest-Info.plist */,
+				3E91BB3D16F077C5D441391D09254817 /* Pods-CropTest-umbrella.h */,
+				B6FD56CA7FBA1E5CE42FF89D5D1B2A4C /* Pods-CropTest.debug.xcconfig */,
+				D3B70D3C3E4C214559CC0546E537D6CE /* Pods-CropTest.release.xcconfig */,
+			);
+			name = "Pods-CropTest";
+			path = "Target Support Files/Pods-CropTest";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01E454C3D4B3D61B12E173F2EE4F6BEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157435C910963F10BD9FEB6244FCF6AC /* CropViewController.h in Headers */,
+				91ABE29FE5EBE0105C1ED64A2BA84C96 /* CropViewController-umbrella.h in Headers */,
+				FB62DBBFC44F0F66857FEA75CA61A34B /* TOActivityCroppedImageProvider.h in Headers */,
+				9FD58B37E5DD8E08AB41E2E2209666EC /* TOCropOverlayView.h in Headers */,
+				D2596A3450D23C209A5B43995BE085E0 /* TOCroppedImageAttributes.h in Headers */,
+				F09E551DE4C95F8CB02194C3EC1546E6 /* TOCropScrollView.h in Headers */,
+				0125D49E08B6D425F72375EEED3648B7 /* TOCropToolbar.h in Headers */,
+				FDBD2B40802DF884C7218A83A7B78FEB /* TOCropView.h in Headers */,
+				98A612A6CFD2CB9B46230613C97B44D0 /* TOCropViewConstants.h in Headers */,
+				1C6A3920C4BCCD1C6587B77B903A94B1 /* TOCropViewController.h in Headers */,
+				0B7E119F5431E18D8E343534764563B2 /* TOCropViewControllerTransitioning.h in Headers */,
+				1ACAAB74335448B39D49F87B1991DBB3 /* UIImage+CropRotate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8F3BFF67426305AAF8A9B2134F4104 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4EA8E38BD707882879152304A765B7 /* CropPickerView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836A1B834911A46D561D40CAC09DA171 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E65B2CADA0674421CAE26414482352 /* Pods-CropTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B940CC28AD71D8576303C29D619C19F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13525BA74378D059FA8DD89EAB94318 /* ABCroptateView.h in Headers */,
+				349696768AF953E4030C8D6C90A30A57 /* ABGridView.h in Headers */,
+				4C68E4C97B694CCE346758930ED45398 /* ABMath.h in Headers */,
+				30899EE8A8D85F23A49F86532927E4E4 /* CroptateView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		83D9A919CB9E250F9118F020C6422CF9 /* Pods-CropTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE17B43EFA2590035F688D660896244E /* Build configuration list for PBXNativeTarget "Pods-CropTest" */;
+			buildPhases = (
+				836A1B834911A46D561D40CAC09DA171 /* Headers */,
+				C6ADE84CAD675D2DB8975BA1C820CD97 /* Sources */,
+				08DE07126E6983860F3CCF754D98E865 /* Frameworks */,
+				409255CEEE4793F54A67FB090B289851 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C29D123A9A4AB09588F4168C76E5CFA /* PBXTargetDependency */,
+				B40D4E0B8EE0068CEE1062E0CF409285 /* PBXTargetDependency */,
+				05C6227077F1FE10EF4445F94F75DE56 /* PBXTargetDependency */,
+			);
+			name = "Pods-CropTest";
+			productName = Pods_CropTest;
+			productReference = EA8F0364A2510403141AA9EFBDEA4091 /* Pods-CropTest */;
+			productType = "com.apple.product-type.framework";
+		};
+		B2E82C663A10701CE6B794CFF6CCFA17 /* CropPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B041319116A5B99A4762289847EEBEE /* Build configuration list for PBXNativeTarget "CropPickerView" */;
+			buildPhases = (
+				3C8F3BFF67426305AAF8A9B2134F4104 /* Headers */,
+				80947A019506FB3F97A17AC358DC7C61 /* Sources */,
+				E4130C56102E0CE983CF6E934C80F829 /* Frameworks */,
+				1E46A6D5B4B5A5E631A2E5B26DDE0C2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CropPickerView;
+			productName = CropPickerView;
+			productReference = E31586FC280F184D535DB550C90E57A9 /* CropPickerView */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB4EEF23ECB2BAF774CE8EFA5AF90C40 /* CropViewController-TOCropViewControllerBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39B535CF9545CB62A5AD8B208BF6CA87 /* Build configuration list for PBXNativeTarget "CropViewController-TOCropViewControllerBundle" */;
+			buildPhases = (
+				59F26058CD1DAA08702814C14B987A71 /* Sources */,
+				B2ABFAC272EEE009B984358049F4040D /* Frameworks */,
+				6DEFF336CE4BBC5262A3A7169A31A2CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CropViewController-TOCropViewControllerBundle";
+			productName = TOCropViewControllerBundle;
+			productReference = 97A93DCEF2B1499B1F84D43333829DC7 /* CropViewController-TOCropViewControllerBundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C83B69B91379EDCB7316C2DB7AC211AD /* CroptateView-ABCropRotateView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89BCD362445A784A529C97C0CFB27A52 /* Build configuration list for PBXNativeTarget "CroptateView-ABCropRotateView" */;
+			buildPhases = (
+				8DCF7133B3FD013CA5159C586293E8F4 /* Sources */,
+				B3E8CDEB5C7FC36108EE698383BF79B7 /* Frameworks */,
+				23F4A744D27F4C794918D353FC0CFD27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CroptateView-ABCropRotateView";
+			productName = ABCropRotateView;
+			productReference = 0CFC845BD4FD87C459AAA2E3D7CB4367 /* CroptateView-ABCropRotateView */;
+			productType = "com.apple.product-type.bundle";
+		};
+		CA819CDBE8C2945A1DE96548875BBE72 /* CroptateView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AA1889B1B830405E76ADF1B0B63E5E8 /* Build configuration list for PBXNativeTarget "CroptateView" */;
+			buildPhases = (
+				B940CC28AD71D8576303C29D619C19F2 /* Headers */,
+				8E9C73832BA0C9B6446FD9D8DF8AFE1F /* Sources */,
+				1FF7D7C837E671C1441B198F160E4074 /* Frameworks */,
+				A1E209D0BEF950A0B478D3B300271E7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBDD004414912C8476AEE3EAA78983CF /* PBXTargetDependency */,
+			);
+			name = CroptateView;
+			productName = CroptateView;
+			productReference = F28D18BFC2B49C00096A5D7BC81A7244 /* CroptateView */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC81A5995F9CEB2971CBA61ACA13FCA3 /* CropViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00D51F041533BC1499BACA614A730982 /* Build configuration list for PBXNativeTarget "CropViewController" */;
+			buildPhases = (
+				01E454C3D4B3D61B12E173F2EE4F6BEF /* Headers */,
+				24914EAFD12E90DD8D2325F4E28BE9B5 /* Sources */,
+				F3199EEAABCB08F88FAC832ED6178828 /* Frameworks */,
+				0C5DFA728140DCEE2D70A063E82D3778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C43152435803E26DA86E629901BD056 /* PBXTargetDependency */,
+			);
+			name = CropViewController;
+			productName = CropViewController;
+			productReference = 19672639458D5EF5EC76A48F6BF5A2B3 /* CropViewController */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ar,
+				ca,
+				cs,
+				"da-DK",
+				de,
+				en,
+				es,
+				fa,
+				"fa-IR",
+				fi,
+				fr,
+				hu,
+				id,
+				it,
+				ja,
+				ko,
+				ms,
+				nl,
+				pl,
+				pt,
+				"pt-BR",
+				ro,
+				ru,
+				sk,
+				tr,
+				vi,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B55F4DB15206B26499F0FBCBDF07BEE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2E82C663A10701CE6B794CFF6CCFA17 /* CropPickerView */,
+				CA819CDBE8C2945A1DE96548875BBE72 /* CroptateView */,
+				C83B69B91379EDCB7316C2DB7AC211AD /* CroptateView-ABCropRotateView */,
+				CC81A5995F9CEB2971CBA61ACA13FCA3 /* CropViewController */,
+				BB4EEF23ECB2BAF774CE8EFA5AF90C40 /* CropViewController-TOCropViewControllerBundle */,
+				83D9A919CB9E250F9118F020C6422CF9 /* Pods-CropTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C5DFA728140DCEE2D70A063E82D3778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17F61406A52F55F10B36FAAC1007C8E8 /* CropViewController-TOCropViewControllerBundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E46A6D5B4B5A5E631A2E5B26DDE0C2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F4A744D27F4C794918D353FC0CFD27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409255CEEE4793F54A67FB090B289851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DEFF336CE4BBC5262A3A7169A31A2CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267B90CC915D2ED1E57023664222357F /* ar.lproj in Resources */,
+				440105E872985AF3092632D459384C6F /* Base.lproj in Resources */,
+				074303494D7B84C8850D741B8F3B1D4B /* ca.lproj in Resources */,
+				FC1602B479EE7CB08958F5CB59F1ABAD /* cs.lproj in Resources */,
+				91092EFA6933F89639A3570051710D77 /* da-DK.lproj in Resources */,
+				22B85B301F554163A55ED58B32132291 /* de.lproj in Resources */,
+				D948A9D610799A058448C639F4391B6E /* en.lproj in Resources */,
+				9386E30B72CB709E24D76D0A5CEAB64E /* es.lproj in Resources */,
+				47625AAD465CED219EA3894C059B9927 /* fa.lproj in Resources */,
+				6A4054B8EA8B01FD95C39230AC76E6E0 /* fa-IR.lproj in Resources */,
+				2FBF71950FEBE004A0468C9DD46D23DE /* fi.lproj in Resources */,
+				7329860C619F4B842A2B39471F81606E /* fr.lproj in Resources */,
+				749E88938C1417092BF7B7B1893B5D62 /* hu.lproj in Resources */,
+				927E560379E18569851E313FC337DBA7 /* id.lproj in Resources */,
+				E027818561357A9CA10AA75E6C0AB36F /* it.lproj in Resources */,
+				5E407A6826BD37FE10650A7BE46337A3 /* ja.lproj in Resources */,
+				B9E7B420F91DBAE1BFA664F1A1F6C02D /* ko.lproj in Resources */,
+				C5D553D3A2813B1F76402726BC74C111 /* ms.lproj in Resources */,
+				0AB111B20E9194EC54305D18389FEEB5 /* nl.lproj in Resources */,
+				F2A5C0F830A3CCC2195EC38867F633D1 /* pl.lproj in Resources */,
+				D9A44C51686B113479A674A5F4B97194 /* pt.lproj in Resources */,
+				B0AD48795AFF23B9153F34BB96F3CD4A /* pt-BR.lproj in Resources */,
+				35026DDFF6780ABC4B187FCFF187FF16 /* ro.lproj in Resources */,
+				8240F04CF9D89087BF20F0985477F93C /* ru.lproj in Resources */,
+				D7223CC8B377F77B2CCCE90F8A83D7FD /* sk.lproj in Resources */,
+				2D20AAE0FE9CB475B20549189174ED06 /* tr.lproj in Resources */,
+				6B7E37AC37E5C568CF7C49D1481DE5A8 /* vi.lproj in Resources */,
+				AB16FBCA530203BF004DD38B3B1B82AF /* zh-Hans.lproj in Resources */,
+				A87E18EEFD2EF35B9272A875E92C11C2 /* zh-Hant.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E209D0BEF950A0B478D3B300271E7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1A8B1FF3A4F57BE20C9B2CB946D0D9 /* CroptateView-ABCropRotateView in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24914EAFD12E90DD8D2325F4E28BE9B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFDA8C832F794F2C029A433BB3996A4 /* CropViewController.swift in Sources */,
+				6032EF8BEF6DE02B5E1360616EECCEC2 /* CropViewController-dummy.m in Sources */,
+				3C1033326696275C856EC47132BDA167 /* TOActivityCroppedImageProvider.m in Sources */,
+				325F5E0DFE35BB21EC34EEA8BD152151 /* TOCropOverlayView.m in Sources */,
+				B6ADBA6217AA1EE7CD56221D4906AA59 /* TOCroppedImageAttributes.m in Sources */,
+				DCAD9827EEA5BB6C05557DEB2C2BCCB4 /* TOCropScrollView.m in Sources */,
+				708515D6834361D40017CAAF4F2CC0B3 /* TOCropToolbar.m in Sources */,
+				60A2CF183D675A74ED4648120144C0B3 /* TOCropView.m in Sources */,
+				322DEBBD84FA2A111F8AB1F055B3A8BC /* TOCropViewController.m in Sources */,
+				B56F5B91020C46BC39AC6C2FEA387D70 /* TOCropViewControllerTransitioning.m in Sources */,
+				0622FE500447E0E62B993DE74B69C413 /* UIImage+CropRotate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F26058CD1DAA08702814C14B987A71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80947A019506FB3F97A17AC358DC7C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8609D6867D6199EA5D4F0D8E8FAEB64A /* BezierPath+.swift in Sources */,
+				48889F8BFECE411608DC2C6E681EB9BF /* CropDimView.swift in Sources */,
+				00F40BFA8398D09DFD0D9D48A356E188 /* CropPickerView.swift in Sources */,
+				666EE0FB4CF6FC0CA7F6A31DD690E1B5 /* CropPickerView-dummy.m in Sources */,
+				BD3C89994EB4A08AD15857C0E465CEB4 /* CropResult.swift in Sources */,
+				148D635237282F75A764D979B0C9799A /* CropView.swift in Sources */,
+				52A03A0864FF789D087F604ECA3EDA1C /* LineButton.swift in Sources */,
+				56B282231271CE1E310577075D304466 /* NSLayoutConstraint+.swift in Sources */,
+				9699AFE6C26869568A3009EEEAEC2B31 /* UIImage+.swift in Sources */,
+				DDC485BF0BEA31523C9DFF2E189CF8A9 /* UIImageView+.swift in Sources */,
+				B5476A5DA3BC0BA585569E26F73B0D6B /* UIView+.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DCF7133B3FD013CA5159C586293E8F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9C73832BA0C9B6446FD9D8DF8AFE1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91BDD4D7E2473F9F4CC70B9D2AFAC40 /* ABCroptateView.m in Sources */,
+				B5B41651CAAE7AE113031853222E4F6F /* ABGridView.m in Sources */,
+				D41A5D8D7DA9FFC4E51C08615C365F99 /* ABMath.m in Sources */,
+				529B0F8E7F763B449CE65D7F26A03D72 /* CroptateView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6ADE84CAD675D2DB8975BA1C820CD97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FC539131DB06F764BD4741A23878E7 /* Pods-CropTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05C6227077F1FE10EF4445F94F75DE56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CroptateView;
+			target = CA819CDBE8C2945A1DE96548875BBE72 /* CroptateView */;
+			targetProxy = 805220E4493BBD112FF63F289673FFA1 /* PBXContainerItemProxy */;
+		};
+		4C43152435803E26DA86E629901BD056 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CropViewController-TOCropViewControllerBundle";
+			target = BB4EEF23ECB2BAF774CE8EFA5AF90C40 /* CropViewController-TOCropViewControllerBundle */;
+			targetProxy = B207747B6CDF487C19A83E30D620BEBB /* PBXContainerItemProxy */;
+		};
+		7C29D123A9A4AB09588F4168C76E5CFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CropPickerView;
+			target = B2E82C663A10701CE6B794CFF6CCFA17 /* CropPickerView */;
+			targetProxy = 14F0D3574AA60DE6EF21780635DFE19E /* PBXContainerItemProxy */;
+		};
+		B40D4E0B8EE0068CEE1062E0CF409285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CropViewController;
+			target = CC81A5995F9CEB2971CBA61ACA13FCA3 /* CropViewController */;
+			targetProxy = 48195C59EC771EF462301EDE11240165 /* PBXContainerItemProxy */;
+		};
+		EBDD004414912C8476AEE3EAA78983CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CroptateView-ABCropRotateView";
+			target = C83B69B91379EDCB7316C2DB7AC211AD /* CroptateView-ABCropRotateView */;
+			targetProxy = 38B772A6584C9FDF3C33CF44E4F10355 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03E41212E4D80E727E98578EBAC5D987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 556A897AB0CC9D653DCB51083D4ABAE3 /* CropViewController.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CropViewController";
+				IBSC_MODULE = CropViewController;
+				INFOPLIST_FILE = "Target Support Files/CropViewController/ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TOCropViewControllerBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1223FC901143146D9164C698EC20E275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6FD56CA7FBA1E5CE42FF89D5D1B2A4C /* Pods-CropTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CropTest/Pods-CropTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CropTest/Pods-CropTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		268B25AF3E303AD915388E53AF33AFA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4417350222AB388D3F982A88B9472D4F /* CropViewController.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CropViewController/CropViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CropViewController/CropViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CropViewController/CropViewController.modulemap";
+				PRODUCT_MODULE_NAME = CropViewController;
+				PRODUCT_NAME = CropViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		32CDE8D349B56EFB127F697AAC98E393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8659CD1458FEF3D7EDF60A590431ABA2 /* CroptateView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CroptateView/CroptateView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CroptateView/CroptateView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CroptateView/CroptateView.modulemap";
+				PRODUCT_MODULE_NAME = CroptateView;
+				PRODUCT_NAME = CroptateView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37765244B2F13E56AFC441D07D98C57B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAFF3D27F1D87E5CEEC34A7714E0475A /* CroptateView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CroptateView";
+				IBSC_MODULE = CroptateView;
+				INFOPLIST_FILE = "Target Support Files/CroptateView/ResourceBundle-ABCropRotateView-CroptateView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ABCropRotateView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3F6A26D836FC2E39A603C53F90042FDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC19CD91EE647949F0955C9D9E87EA7B /* CropPickerView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CropPickerView/CropPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CropPickerView/CropPickerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CropPickerView/CropPickerView.modulemap";
+				PRODUCT_MODULE_NAME = CropPickerView;
+				PRODUCT_NAME = CropPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		463FD234450C5003A1BEDD0B0403BA85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAFF3D27F1D87E5CEEC34A7714E0475A /* CroptateView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CroptateView/CroptateView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CroptateView/CroptateView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CroptateView/CroptateView.modulemap";
+				PRODUCT_MODULE_NAME = CroptateView;
+				PRODUCT_NAME = CroptateView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56582A6AA93114BC0E8B8450223A641C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3B70D3C3E4C214559CC0546E537D6CE /* Pods-CropTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CropTest/Pods-CropTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CropTest/Pods-CropTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B7A4D5556A0F036AAECBAFB821BF506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4417350222AB388D3F982A88B9472D4F /* CropViewController.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CropViewController";
+				IBSC_MODULE = CropViewController;
+				INFOPLIST_FILE = "Target Support Files/CropViewController/ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TOCropViewControllerBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		71820A679D045D7BC24B55F693A4708A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8659CD1458FEF3D7EDF60A590431ABA2 /* CroptateView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CroptateView";
+				IBSC_MODULE = CroptateView;
+				INFOPLIST_FILE = "Target Support Files/CroptateView/ResourceBundle-ABCropRotateView-CroptateView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ABCropRotateView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BEDF5753321060C37FF30568C39C9F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DB35410E1C28FC8AE9FB8535CE37EFA /* CropPickerView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CropPickerView/CropPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CropPickerView/CropPickerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CropPickerView/CropPickerView.modulemap";
+				PRODUCT_MODULE_NAME = CropPickerView;
+				PRODUCT_NAME = CropPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB039D8FCD5338342674DA04E8B1378E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 556A897AB0CC9D653DCB51083D4ABAE3 /* CropViewController.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CropViewController/CropViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CropViewController/CropViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CropViewController/CropViewController.modulemap";
+				PRODUCT_MODULE_NAME = CropViewController;
+				PRODUCT_NAME = CropViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00D51F041533BC1499BACA614A730982 /* Build configuration list for PBXNativeTarget "CropViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB039D8FCD5338342674DA04E8B1378E /* Debug */,
+				268B25AF3E303AD915388E53AF33AFA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AA1889B1B830405E76ADF1B0B63E5E8 /* Build configuration list for PBXNativeTarget "CroptateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463FD234450C5003A1BEDD0B0403BA85 /* Debug */,
+				32CDE8D349B56EFB127F697AAC98E393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39B535CF9545CB62A5AD8B208BF6CA87 /* Build configuration list for PBXNativeTarget "CropViewController-TOCropViewControllerBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E41212E4D80E727E98578EBAC5D987 /* Debug */,
+				6B7A4D5556A0F036AAECBAFB821BF506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
+				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B041319116A5B99A4762289847EEBEE /* Build configuration list for PBXNativeTarget "CropPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEDF5753321060C37FF30568C39C9F13 /* Debug */,
+				3F6A26D836FC2E39A603C53F90042FDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89BCD362445A784A529C97C0CFB27A52 /* Build configuration list for PBXNativeTarget "CroptateView-ABCropRotateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37765244B2F13E56AFC441D07D98C57B /* Debug */,
+				71820A679D045D7BC24B55F693A4708A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE17B43EFA2590035F688D660896244E /* Build configuration list for PBXNativeTarget "Pods-CropTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1223FC901143146D9164C698EC20E275 /* Debug */,
+				56582A6AA93114BC0E8B8450223A641C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

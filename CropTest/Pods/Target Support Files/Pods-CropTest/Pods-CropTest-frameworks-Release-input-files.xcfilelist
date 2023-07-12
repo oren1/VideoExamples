@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-CropTest/Pods-CropTest-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CropPickerView/CropPickerView.framework
+${BUILT_PRODUCTS_DIR}/CropViewController/CropViewController.framework
+${BUILT_PRODUCTS_DIR}/CroptateView/CroptateView.framework
